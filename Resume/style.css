@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.resume{
+    display: flex;
+    width: 1920px;
+}
+.left{
+    width: 1500px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: none;
+}
+.right{
+  
+    width: 418px;
+    height: 300px;
+   margin:0 auto;
+
+   border-top: none;
+   border-left: none;
+   line-height: 50px; 
+}
+.right>.contact ul li{
+    list-style: none;
+    margin-left: 10px;
+    line-height: 50px;
+}
+.right a{
+    text-decoration: none;
+}
+.right h2{
+   text-align: center;
+    margin: 0 auto;
+}
+
+header{
+    height: 150px;
+    border-bottom: 1px solid black;
+
+    line-height: 50px;
+}
+header h3{
+    color: red;
+}
+header p{
+    font-weight: bolder;
+}
+.education{
+    height: 150px;
+    border-bottom: 1px solid black;
+}
+.education h3{
+    margin-top: 40px;
+}
+.contact{
+    height: 300px;
+    border: 1px solid black;
+    border-left: none;
+    border-top: none;
+}
+.skills{
+    width: 416px;
+
+}
+.skills ul{
+   margin-left: 40px;
+}
+.project{
+    position: relative;
+    line-height: 40px;
+  
+}
+.project h4{
+    margin-left: 20px;
+}
+.project ul{
+    margin-left: 60px;
+}
+.project h2{
+    display: inline;
+}
+.club{
+    height: 350px;
+    border-top: 1px solid black;
+    line-height: 40px;
+}
+.club p{
+    text-indent: 2em;
+}
